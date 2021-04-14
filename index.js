@@ -34,7 +34,7 @@ const Database = require("./database");
 
 async function main() {
     try {
-        await Database.instance.connectToDb("mongodb+srv://admin:admin@cluster0.ymv7h.mongodb.net/todoApp?retryWrites=true&w=majority")
+        await Database.instance.connectToDb("mongodb+srv://huuthang:<Huuthang1920>@cluster0.6gdfq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
         //await db.connectToDb("mongodb+srv://admin:admin@cluster0.ymv7h.mongodb.net/todoApp?retryWrites=true&w=majority");
         app.listen(3000, "0.0.0.0", () => {
             console.log(`server is running`)
